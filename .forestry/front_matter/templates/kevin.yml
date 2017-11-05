@@ -1,6 +1,7 @@
 ---
 pages:
 - teste.md
+- _posts/teste-1.md
 hide_body: false
 fields:
 - type: textarea

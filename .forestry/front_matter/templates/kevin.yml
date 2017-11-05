@@ -6,3 +6,17 @@ hide_body: false
 fields:
 - type: textarea
   default: Nada ainda...
+- type: field_group
+  name: super_teste
+  label: Super Teste
+  fields:
+  - type: list
+    name: projetos
+    label: Projetos
+    config:
+      use_select: false
+      source:
+        type: datafiles
+    default:
+    - TechInfo25
+    - AskPassGen
